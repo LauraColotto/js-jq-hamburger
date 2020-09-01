@@ -10,26 +10,6 @@ hamburger.click(
 
 close.click(
   function () {
-    menu.removeClass("active");    
+    menu.removeClass("active");
   }
-)
-
-// //var menu = $(".hamburger-menu");
-// var menu = document.getElementsByClassName('hamburger-menu');
-// //var hamburger = document.getElementsByClassName('fas fa-bars');
-// //var hamburger = $('i');
-// var he = $('img');
-// var hamburger = $('i.fas.fa-bars');
-//
-//
-// /*hamburger.click(
-//   function() {
-//     //menu.last().addClass("hamburger-menu.active");
-//     hamburger.attr('id', 'newID');
-//   }
-// )*/
-// hamburger.mouseenter(
-//   function() {
-//     alert("Sopra");
-//   }
-// );
+);
